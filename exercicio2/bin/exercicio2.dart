@@ -12,7 +12,7 @@ void main(){
   print("Insira sua cidade: ");
   cidade = stdin.readLineSync()!;
 
-  String idadeStr = idade.toString();
+  final String idadeStr = idade.toString();
 
   String strFinal = "$nome tem $idadeStr anos e mora em $cidade";
   print(strFinal);
